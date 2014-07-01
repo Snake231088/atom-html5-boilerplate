@@ -1,9 +1,11 @@
 {
   "name": "atom-html5-boilerplate",
   "main": "./lib/atom-html5-boilerplate",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Download latest version of Html5 Boilerplate from http://html5boilerplate.com/",
-  "activationEvents": ["atom-html5-boilerplate:toggle"],
+  "activationEvents": [
+    "atom-html5-boilerplate:toggle"
+  ],
   "repository": "https://github.com/Snake231088/atom-html5-boilerplate",
   "license": "MIT",
   "engines": {
