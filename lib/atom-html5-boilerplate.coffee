@@ -54,7 +54,7 @@ module.exports =
                   return
 
                 # Unzip
-                tar      = require './tar/tar.js'
+                tar      = require 'tar'
                 zlib     = require 'zlib'
 
                 fs.createReadStream(filename)
@@ -102,7 +102,7 @@ module.exports =
                     deleteFolderRecursive base
 
                     fs.unlinkSync filename
-
+                    console.log "html5-boilerplate downloaded"
 
             return
 
