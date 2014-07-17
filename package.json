@@ -1,7 +1,7 @@
 {
   "name": "atom-html5-boilerplate",
   "main": "./lib/atom-html5-boilerplate",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Download latest version of Html5 Boilerplate from http://html5boilerplate.com/",
   "activationEvents": [
     "atom-html5-boilerplate:toggle"
@@ -12,6 +12,6 @@
     "atom": ">0.50.0"
   },
   "dependencies": {
-      "tar": ">= 0.1.20"
+    "tar": ">= 0.1.20"
   }
 }
